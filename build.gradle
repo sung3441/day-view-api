@@ -13,7 +13,7 @@ tasks.register('copyPrivate', Copy) {
 	}
 }
 
-group = 'com.side'
+group = 'com.side.dayv'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
