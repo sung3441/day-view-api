@@ -1,3 +1,3 @@
-[submodule "private-config"]
-	path = src/main/resources/private-config
+[submodule "src/main/resources/config"]
+	path = src/main/resources/config
 	url = git@github.com:sung3441/dayv-private.git
