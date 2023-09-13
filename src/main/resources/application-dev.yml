@@ -4,5 +4,5 @@ logging:
 spring:
     config:
         import:
-            - config/application-db.yml
-            - config/application-oauth.yml
+            - classpath:config/application-db.yml
+            - classpath:config/application-oauth.yml
