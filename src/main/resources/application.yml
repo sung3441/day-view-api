@@ -1,7 +1,10 @@
 spring:
     profiles:
         active: dev
-        include: oauth
+    config:
+        import:
+            - dayv-private/application-db.yml
+            - dayv-private/application-oauth.yml
 
     mvc:
         view:
