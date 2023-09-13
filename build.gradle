@@ -7,7 +7,7 @@ plugins {
 
 tasks.register('copyPrivate', Copy) {
 	copy {
-		from './dayv-private'
+		from './private-config'
 		include '*.yml'
 		into 'src/main/resources'
 	}
