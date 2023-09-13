@@ -1,0 +1,1 @@
+java -Dspring.profiles.active=dev -jar ./build/libs.day-view-api-0.0.1-SNAPSHOT.jar
