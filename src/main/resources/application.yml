@@ -3,8 +3,8 @@ spring:
         active: dev
     config:
         import:
-            - application-db.yml
-            - application-oauth.yml
+            - private-config/application-db.yml
+            - private-config/application-oauth.yml
 
     mvc:
         view:
