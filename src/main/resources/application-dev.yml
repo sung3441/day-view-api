@@ -1,3 +1,8 @@
 logging:
     level:
       org.hibernate.SQL: debug
+spring:
+    config:
+        import:
+            - config/application-db.yml
+            - config/application-oauth.yml

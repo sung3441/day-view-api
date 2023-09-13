@@ -1,11 +1,6 @@
 spring:
     profiles:
         active: dev
-    config:
-        import:
-            - private-config/application-db.yml
-            - private-config/application-oauth.yml
-
     mvc:
         view:
             prefix: /WEB-INF/views/
